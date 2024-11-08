@@ -1,71 +1,99 @@
-*{
+
+/* Reset */
+/* *{
     margin: 0;
     padding: 0;
-}
-/* para dispositivos móviles */
-body{
-    background-color: #3a311e;
-    font-size: 16px;
-    padding: 10px;
-    }
-    /* para desktop */
-    @media (min-widht:1024px) {
-body{font-size: 20px;
-    padding: 30px;}
-    }
+} */
+ /* movile */
 
-body img{
-    width: 40%;
-    border-radius: 5%;
-    }
+      /* header{
+    background-color:#CAC3BB;
+    padding: 5px;
+    } */
 
-.img_fachada img {
+ /* body img{
     width: 60%;
-    height: auto
-    }
-.img_fachada{
+    height: auto;
+    border-radius: 5%;
+    } */
+    /* .img_fachada{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 5%;
+    } */
+    .img-cabalgatas,
+    .img-piscina,
+    .img-senderismo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
     }
-    header div{
+ 
+
+ /* body{
+    background-color: #3a311e;
+    font-size: 16px;
+    padding: 10px;
+    } */
+    /* desktop */
+    
+    @media (min-width:1024px) {
+    body {font-size: 20px;
+          padding: 30px;}
+    }
+    .img_fachada img {
+        width: 70%;
+        height: auto
+        }
+    .resto-principal,
+    .salon-de-te,
+    .quincho{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 6%;
+    }
+
+/* header div{
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content:space-around;
-    }
-.logo{
+    } */
+/* .logo{
     width: 150px;
     height: 100px;
-    }
-h1 {
+    } */
+/* h1 {
     color: rgb(202, 195, 187);
     font-size: 50px;
     padding: 25px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif rgb(46, 170, 87); font-weight: 2000;
     justify-content: center;
-    }
-    h3{
+    } */
+    /* h3{
         color: rgb(202, 195, 187);
         font-size: 35px;
         text-align: center;
-    }
-    h2{
+    } */
+    /* h2{
     color: rgb(160, 68, 86);
     font-size: 30px;
     text-align: center;
-    }
+    } */
 
    
-    p{
+    /* p{
         color: rgb(202, 195, 187);
         font-family: Arial, Helvetica, sans-serif;
         text-align: center;
         padding-bottom: 5%;
-    }
+    } */
     /* Movile */
-     .grid-container-junior,
+     /* .grid-container-junior,
      .grid-container-doble,
      .grid-container-apart{ 
         display: grid;
@@ -87,9 +115,10 @@ h1 {
         height: auto;
         display: block;
         border-radius: 5px;
-    }
+        margin: 0 auto;
+    } */
     /* Desktop */
-    @media (min-width:1024px){
+    /* @media (min-width:1024px){
 
     .grid-container-junior,
     .grid-container-doble,
@@ -111,26 +140,38 @@ h1 {
         display: flex;
         flex-direction: column;
         justify-content: center;}
-    .img-junior img,
-    .img-doble img,
-    .img-apart img,
-    .img-cabalgatas,
-    .img-piscina,
-    .img-senderismo{
+        
+    
+    .img-cabalgatas img,
+    .img-piscina img,
+    .img-senderismo img{
         width: 100%;
         height: auto;
         display: block;
-        border-radius: 5px;}
+        border-radius: 5px;
+        margin: 0 auto;}
     }
-   
-
-
-     footer div{
+    .img-ibirapita-01,
+    .img-araucaria-02{
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 5%; 
+    } */
+    /* footer div{
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#CAC3BB ;
+    } */
+    /* .maps{
+        display: flex;
+        align-items: center;
+        padding-top: 5%;
+        padding-bottom: 10%;
     }
-     
+      */
 
     
 
