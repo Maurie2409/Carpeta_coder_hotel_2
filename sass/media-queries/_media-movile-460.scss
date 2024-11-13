@@ -1,0 +1,61 @@
+// media queries movile
+
+// p{
+//     font-size: 1rem;
+// }
+// h1{font-size: 2rem;
+//     }
+// h2{
+//         font-size:1,2rem
+//     }
+
+    @media (max-width:460px){
+body{       
+p{font-size: 0.8rem;}
+
+h1{font-size: 1.5rem;}
+
+h2{font-size: 1rem;}
+    }
+
+    }
+img{
+    width: 60%;
+    height: auto;
+    border-radius: 5%;
+    }
+
+    
+    .grid-container-junior,
+    .grid-container-doble,
+    .grid-container-apart{ 
+       display: grid;
+       grid-template-columns: 1fr;
+       gap: 20px ;
+       padding: 2%;}
+
+   .text-junior,
+   .text-doble,
+   .text-apart{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   }
+   .img-junior img,
+   .img-doble img,
+   .img-apart img{
+       width: 80%;
+       height: auto;
+       display: block;
+       border-radius: 5px;
+       margin: 0 auto;
+   }
+    .resto-principal img,
+    .salon-de-te img,
+    .quincho img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 6%;
+    }
+

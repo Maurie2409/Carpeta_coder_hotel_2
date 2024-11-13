@@ -6,9 +6,15 @@ footer{
         justify-content: center;
         align-items: center;
         background-color:#CAC3BB ;
-
+        p{
+              color: $body-bg-color;
+        }
+        a{
+              padding-bottom: 20px;
+        }
+       
        }
 
-
+       
 
 }

@@ -1,5 +1,10 @@
-    
-    
+
+
+
+@import"./media-queries/media-movile-460";
+
+@import "./media-queries/media-destop-1920";
+
 @import "./base/reset";
 
 @import"./layout/header";
@@ -11,3 +16,6 @@
 @import "./layout/main.scss";
 
 @import "./base/general.scss";
+
+@import "./utilities/variables";
+

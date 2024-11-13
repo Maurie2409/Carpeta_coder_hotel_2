@@ -1,48 +1,6 @@
+// media queries desktop
 
-body{
-    background-color: #3a311e;
-    font-size: 16px;
-    padding: 10px;
-    }
-
-
-
-
-    img{
-    width: 60%;
-    height: auto;
-    border-radius: 5%;
-    }
-
-    
-    .grid-container-junior,
-    .grid-container-doble,
-    .grid-container-apart{ 
-       display: grid;
-       grid-template-columns: 1fr;
-       gap: 20px ;
-       padding: 2%;}
-
-   .text-junior,
-   .text-doble,
-   .text-apart{
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-   }
-   .img-junior img,
-   .img-doble img,
-   .img-apart img{
-       width: 80%;
-       height: auto;
-       display: block;
-       border-radius: 5px;
-       margin: 0 auto;
-   }
-
-//    desktop
-
-   @media (min-width:1024px){
+@media (min-width:1024px){
 
     .grid-container-junior,
     .grid-container-doble,
@@ -88,3 +46,4 @@ body{
         padding-top: 5%;
         padding-bottom: 10%;
     }
+
