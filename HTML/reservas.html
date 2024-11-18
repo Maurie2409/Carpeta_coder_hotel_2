@@ -3,14 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/style.css">
     <title>Reservas</title>
 </head>
-     
+<body>  
 <header>
-<div class="logo-nav">
+    <div>
+        <img src="../assets/LogoHotel.png" class="logo">
+        <nav>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"  data-bs-toggle="dropdown" aria-expanded="false">
+                     Menú
+                </button> 
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="../index.html">Inicio</a></li>
+                  <li><a class="dropdown-item" href="../HTML/ubicacion.html">Ubicación</a></li> 
+                  <li><a class="dropdown-item" href="../HTML/gastronomia.html">Gastronomía</a></li> 
+                  <li><a class="dropdown-item" href="../HTML/servicios.html">Servicios</a></li> 
+                  <li><a class="dropdown-item" href="../HTML/eventos.html">Eventos</a></li>
+                  <li><a class="dropdown-item" href="../HTML/reservas.html">Reservas</a></li> 
+                </ul>
+        
+            </div>
+        </nav>
+</div>
+</header>
     
-        <img src="../assets/LogoHotel.png" class= logo alt="Logo">
+        <!-- <img src="../assets/LogoHotel.png" class= logo alt="Logo">
         
         
     
@@ -32,48 +53,52 @@
                 
                 </nav>
         </div>
-        <h1>Reservas</h1>
+         -->
     </header>
-    <div class="video-playa"> 
-        <video src="../assets/playa_corto.mp4" autoplay></video>
+<main>
+    <div class="reservas">
+        <h1>Reservas</h1>
+        <div class="video-playa"> 
+            <video src="../assets/playa_corto.mp4" autoplay></video>
+        </div>
     </div>
-   
-<!-- Tabla NO funcional -->
+<!-- Tabla para ingresar datos -->
+ <div class="form">
     <table>
         <tr>
         <th>Mayores</th>
-        <th>Menores</th>
+        <th>Menores</th>   
         <th>Entrada</th>
         <th>Salida</th>
         </tr>
         <tr>
-        <td>2</td>
-        <td>2</td>
-        <td>23/09/24</td>
-        <td>28/09/24</td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
+        <td><input type="text"></td>
         </tr>
     </table>
-<main>
+
     <h2>Contáctenos</h2>
     <form action="/submit" method="post">
         <label for="nombre">Nombre:</label>
         <input type="text" name="nombre" id="nombre">
         <label for="origen">País de origen:</label>
         <input type="text" name="" id="origen">
-        
-        <label for="genero">Género</label>
-        <input type="radio" name="" id="">
+    
         <label for="">Hombre</label>
+        <input type="radio" name="genero" id="">
 
-        <input type="radio" name="" id="">
         <label for="">Mujer</label>
+        <input type="radio" name="genero" id="">
 
-        <input type="radio" name="" id="">
         <label for="">Ninguno</label>
+        <input type="radio" name="genero"> 
 
     </form>
+</div>
         
-        <h2>contacto</h2>
+        <h2>Contacto</h2>
         <form>
             <label for="tipo">Tipo de consulta</label>
             <select name="tipo" id="">
@@ -87,6 +112,7 @@
         
 </main>
 <footer>
+
     <div>
         <img src="../assets/LogoHotel.png" class= logo alt="LogoHotel">
     </div>
@@ -102,7 +128,8 @@
     
 </footer>
 
-<body>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 
 </html>

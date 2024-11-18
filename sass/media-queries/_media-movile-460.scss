@@ -13,9 +13,11 @@
 body{       
 p{font-size: 0.8rem;}
 
-h1{font-size: 1.5rem;}
+h1{font-size: 1.5rem;
+}
 
-h2{font-size: 1rem;}
+h2{font-size: 1rem;
+    padding-top: 25px;}
     }
 
     }
@@ -57,5 +59,20 @@ img{
         align-items: center;
         justify-content: center;
         padding-bottom: 6%;
+    }
+    .grid-container-cabalgatas,
+    .grid-container-piscina,
+    .grid-container-senderismo{
+       display: grid;
+       grid-template-columns: 1fr;
+       gap: 20px;
+       padding: 2%;
+    }
+    .text-cabalgatas,
+    .text-piscina,
+    .text-senderismo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 

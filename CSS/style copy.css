@@ -47,14 +47,14 @@
         width: 70%;
         height: auto
         }
-    .resto-principal,
+    /* .resto-principal,
     .salon-de-te,
     .quincho{
         display: flex;
         align-items: center;
         justify-content: center;
         padding-bottom: 6%;
-    }
+    } */
 
 /* header div{
     display: flex;

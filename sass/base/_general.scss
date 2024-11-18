@@ -15,9 +15,9 @@ h2{
 }
 h3{
     color: rgb(202, 195, 187);
-    
     font-size: 35px;
     text-align: center;
+   
     }
     p{
         color: rgb(202, 195, 187);
@@ -29,3 +29,28 @@ h3{
         width: 150px;
         height: 100px;
         }
+
+    table{
+        padding: 20px;
+        input{
+            size: 80%;
+        }
+
+    }
+    form{
+        padding: 20px;
+    }
+    .video-playa{
+        display: flex;
+        justify-content: center;
+    }
+    .reservas{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
