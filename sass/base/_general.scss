@@ -54,3 +54,7 @@ h3{
         flex-direction: column;
         justify-content: center;
     }
+    .dropdown-toggle {
+        appearance: none; /* Deshabilita el estilo de flecha */
+        background-image: none; /* Elimina la imagen de fondo de la flecha */
+    }

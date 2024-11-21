@@ -2,76 +2,81 @@
   .navbar {
     display: none;
   }
-  body p {
+  p {
     font-size: 0.8rem;
   }
-  body h1 {
+  h1 {
     font-size: 1.5rem;
   }
-  body h2 {
+  h2 {
     font-size: 1rem;
     padding-top: 25px;
   }
+  h3 {
+    font-size: 0.5rem;
+  }
+  img {
+    width: 60%;
+    height: auto;
+    border-radius: 5%;
+  }
+  .grid-container-junior,
+  .grid-container-doble,
+  .grid-container-apart {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 2%;
+  }
+  .text-junior,
+  .text-doble,
+  .text-apart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img-junior img,
+  .img-doble img,
+  .img-apart img {
+    width: 80%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+  .resto-principal img,
+  .salon-de-te img,
+  .quincho img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 6%;
+  }
+  .grid-container-cabalgatas,
+  .grid-container-piscina,
+  .grid-container-senderismo {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 2%;
+  }
+  .text-cabalgatas,
+  .text-piscina,
+  .text-senderismo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-cabalgatas img,
+  .img-piscina img,
+  .img-senderismo img {
+    width: 60%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
 }
-img {
-  width: 60%;
-  height: auto;
-  border-radius: 5%;
-}
-
-.grid-container-junior,
-.grid-container-doble,
-.grid-container-apart {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-  padding: 2%;
-}
-
-.text-junior,
-.text-doble,
-.text-apart {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.img-junior img,
-.img-doble img,
-.img-apart img {
-  width: 80%;
-  height: auto;
-  display: block;
-  border-radius: 5px;
-  margin: 0 auto;
-}
-
-.resto-principal img,
-.salon-de-te img,
-.quincho img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 6%;
-}
-
-.grid-container-cabalgatas,
-.grid-container-piscina,
-.grid-container-senderismo {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-  padding: 2%;
-}
-
-.text-cabalgatas,
-.text-piscina,
-.text-senderismo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 @media (min-width: 461px) and (max-width: 1023px) {
   .navbar {
     display: none;
@@ -153,7 +158,7 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 body {
@@ -275,4 +280,14 @@ form {
   background-image: none; /* Elimina la imagen de fondo de la flecha */
 }
 
-/*# sourceMappingURL=style.css.map */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.map */

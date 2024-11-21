@@ -1,21 +1,29 @@
 
 
+@import"./utilities/_variables";
 
-@import"./media-queries/media-movile-460";
+@import"./utilities/_mixin";
 
-@import "./media-queries/media-destop-1920";
+@import"./media-queries/_media-movile-320-460";
 
-@import "./base/reset";
+@import"./media-queries/_media-460-1024";
 
-@import"./layout/header";
+@import "./media-queries/_media-desktop-1024-1920";
 
-@import "./layout/body.scss";
+@import "./base/_reset";
 
-@import "./layout/footer.scss";
+@import"./layout/_header";
 
-@import "./layout/main.scss";
+@import "./layout/_body";
 
-@import "./base/general.scss";
+@import "./layout/_footer";
 
-@import "./utilities/variables";
+@import "./layout/_main";
+
+@import "./base/_general";
+
+@import "./utilities/_extend";
+
+
+
 
