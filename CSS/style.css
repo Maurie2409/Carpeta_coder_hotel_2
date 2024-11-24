@@ -1,211 +1,7 @@
-@media (min-width: 320px) and (max-width: 460px) {
-  .navbar {
-    display: none;
-  }
-  body p {
-    font-size: 0.8rem;
-  }
-  body h1 {
-    font-size: 1.5rem;
-  }
-  body h2 {
-    font-size: 1rem;
-    padding-top: 25px;
-  }
-}
-img {
-  width: 60%;
-  height: auto;
-  border-radius: 5%;
-}
-
-.grid-container-junior,
-.grid-container-doble,
-.grid-container-apart {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-  padding: 2%;
-}
-
-.text-junior,
-.text-doble,
-.text-apart {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.img-junior img,
-.img-doble img,
-.img-apart img {
-  width: 80%;
-  height: auto;
-  display: block;
-  border-radius: 5px;
-  margin: 0 auto;
-}
-
-.resto-principal img,
-.salon-de-te img,
-.quincho img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 6%;
-}
-
-.grid-container-cabalgatas,
-.grid-container-piscina,
-.grid-container-senderismo {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-  padding: 2%;
-}
-
-.text-cabalgatas,
-.text-piscina,
-.text-senderismo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-@media (min-width: 461px) and (max-width: 1023px) {
-  .navbar {
-    display: none;
-  }
-}
-@media (min-width: 1024px) and (max-width: 1920px) {
-  .dropdown {
-    display: none;
-  }
-  .grid-container-junior,
-  .grid-container-doble,
-  .grid-container-apart,
-  .grid-container-cabalgatas,
-  .grid-container-piscina,
-  .grid-container-senderismo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    padding: 2%;
-  }
-}
-.resto-principal,
-.salon-de-te,
-.quincho {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-bottom: 6%;
-}
-
-.text-junior,
-.text-doble,
-.text-apart,
-.text-cabalgatas,
-.text-piscina,
-.text-senderismo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.img-cabalgatas img,
-.img-piscina img,
-.img-senderismo img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 5px;
-  margin: 0 auto;
-}
-
-.img-ibirapita-01,
-.img-araucaria-02 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5%;
-}
-
-.maps {
-  display: flex;
-  align-items: center;
-  padding-top: 5%;
-  padding-bottom: 10%;
-}
-
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
-}
-
-header {
-  background-color: #CAC3BB;
-  padding: 5px;
-}
-
-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-around;
-}
-
-body {
-  background-color: #3a311e;
-}
-
-.navbar ul {
-  display: flex;
-  justify-content: space-between;
-  justify-content: space-around;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-}
-
-header {
-  display: flex;
-}
-
-header nav ul li {
-  padding: 4vh;
-  text-align: center;
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  list-style: none;
-  background-color: rgb(184, 161, 221);
-  padding: 4px 8px 4px 8px;
-  border-radius: 5%;
-  border: 1px solid #f0f0f0;
-}
-
-footer div {
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #CAC3BB;
-}
-footer div p {
-  color: #3a311e;
-}
-footer div a {
-  padding-bottom: 20px;
-}
-
-h1 img_fachada {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 5%;
 }
 
 h1 {
@@ -273,6 +69,275 @@ form {
 .dropdown-toggle {
   appearance: none; /* Deshabilita el estilo de flecha */
   background-image: none; /* Elimina la imagen de fondo de la flecha */
+}
+
+@media (min-width: 320px) and (max-width: 460px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .logo {
+    width: 100px;
+    height: 50px;
+  }
+  .navbar {
+    display: none;
+  }
+  p {
+    font-size: 0.6rem;
+    padding: 16px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1rem;
+    padding-top: 25px;
+  }
+  h3 {
+    font-size: 0.8rem;
+  }
+  img {
+    width: 60%;
+    height: auto;
+    border-radius: 5%;
+  }
+  .grid-container-junior,
+  .grid-container-doble,
+  .grid-container-apart {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 2%;
+  }
+  .text-junior,
+  .text-doble,
+  .text-apart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img-junior img,
+  .img-doble img,
+  .img-apart img {
+    width: 80%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+  .resto-principal img,
+  .salon-de-te img,
+  .quincho img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 6%;
+  }
+  .grid-container-cabalgatas,
+  .grid-container-piscina,
+  .grid-container-senderismo {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 2%;
+  }
+  .text-cabalgatas,
+  .text-piscina,
+  .text-senderismo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-cabalgatas img,
+  .img-piscina img,
+  .img-senderismo img {
+    width: 60%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+  .button-footer :first-child {
+    font-size: 0.8 rem;
+    padding: 2px 2px;
+  }
+}
+@media (min-width: 461px) and (max-width: 1023px) {
+  .navbar {
+    display: none;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1920px) {
+  .dropdown {
+    display: none;
+  }
+  .grid-container-junior,
+  .grid-container-doble,
+  .grid-container-apart,
+  .grid-container-cabalgatas,
+  .grid-container-piscina,
+  .grid-container-senderismo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 2%;
+  }
+}
+.resto-principal,
+.salon-de-te,
+.quincho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 6%;
+}
+
+.text-junior,
+.text-doble,
+.text-apart,
+.text-cabalgatas,
+.text-piscina,
+.text-senderismo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-cabalgatas img,
+.img-piscina img,
+.img-senderismo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.img-ibirapita-01,
+.img-araucaria-02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+header {
+  background-color: #CAC3BB;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+header a:hover {
+  color: #CAC3BB;
+  background-color: #B99470;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #3a311e;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+header nav ul li {
+  padding: 4vh;
+  text-align: center;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  background-color: rgb(184, 161, 221);
+  padding: 4px 8px 4px 8px;
+  border-radius: 5%;
+  border: 1px solid #f0f0f0;
+}
+
+img {
+  width: 60%;
+  height: auto;
+  border-radius: 5%;
+}
+
+.text-junior,
+.text-doble,
+.text-apart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-junior img,
+.img-doble img,
+.img-apart img {
+  width: 80%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+#map {
+  width: 50%; /* Ajusta el tamaño del mapa */
+  height: auto; /* Define la altura del mapa */
+}
+
+.button-footer:hover :first-child {
+  color: rgb(160, 68, 86);
+  background-color: #3a311e;
+}
+
+footer div {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #CAC3BB;
+}
+footer div p {
+  color: #3a311e;
+}
+footer div a {
+  padding-bottom: 20px;
+}
+
+.img_fachada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

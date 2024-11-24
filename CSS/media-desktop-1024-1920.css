@@ -1,0 +1,56 @@
+@media (min-width: 1024px) and (max-width: 1920px) {
+  .dropdown {
+    display: none;
+  }
+  .grid-container-junior,
+  .grid-container-doble,
+  .grid-container-apart,
+  .grid-container-cabalgatas,
+  .grid-container-piscina,
+  .grid-container-senderismo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 2%;
+  }
+}
+.resto-principal,
+.salon-de-te,
+.quincho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 6%;
+}
+
+.text-junior,
+.text-doble,
+.text-apart,
+.text-cabalgatas,
+.text-piscina,
+.text-senderismo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-cabalgatas img,
+.img-piscina img,
+.img-senderismo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.img-ibirapita-01,
+.img-araucaria-02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+/*# sourceMappingURL=media-desktop-1024-1920.css.map */

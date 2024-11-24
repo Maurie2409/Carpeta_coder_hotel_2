@@ -1,11 +1,25 @@
 
+
+
 @media (min-width: 320px) and (max-width: 460px){
-    
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo{
+     width:100px;
+     height: 50px;
+}
+
 .navbar{
     display: none;
 }
        
-p{font-size: 0.8rem;}
+p{font-size: 0.6rem;
+padding: 16px}
 
 h1{font-size: 1.5rem;
 }
@@ -14,12 +28,9 @@ h2{font-size: 1rem;
     padding-top: 25px;}
 
   
-h3{font-size: 0.5rem;
-  
-}
-
+h3{font-size: 0.8rem;
     
-
+  }
 
 img{
     width: 60%;
@@ -84,7 +95,12 @@ img{
         display: block;
         border-radius: 5px;
         margin: 0 auto;
-
     }
 
+    .button-footer
+    :first-child{
+        font-size: 0.8 rem;
+        padding: 2px 2px
+    }
+    
 }

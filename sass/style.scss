@@ -1,18 +1,18 @@
+@import "./base/_reset";
 
+@import "./utilities/_variables";
 
-@import"./utilities/_variables";
+@import "./base/_general";
 
-@import"./utilities/_mixin";
+@import "./utilities/_mixin";
 
-@import"./media-queries/_media-movile-320-460";
+@import "./media-queries/_media-movile-320-460";
 
-@import"./media-queries/_media-460-1024";
+@import "./media-queries/_media-460-1024";
 
 @import "./media-queries/_media-desktop-1024-1920";
 
-@import "./base/_reset";
-
-@import"./layout/_header";
+@import "./layout/_header";
 
 @import "./layout/_body";
 
@@ -20,10 +20,4 @@
 
 @import "./layout/_main";
 
-@import "./base/_general";
-
 @import "./utilities/_extend";
-
-
-
-
