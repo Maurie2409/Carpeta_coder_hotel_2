@@ -59,5 +59,8 @@ h3{
         appearance: none; /* Deshabilita el estilo de flecha */
         background-image: none; /* Elimina la imagen de fondo de la flecha */
     }
-    
+    .boton-personalizado{
+        background-color: $font-color;
+        
+      }
    
