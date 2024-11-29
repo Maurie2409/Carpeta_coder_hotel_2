@@ -6,4 +6,70 @@
 .navbar{
     display: none;
 }
+.grid-container-junior,
+.grid-container-doble,
+.grid-container-apart{ 
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: 20px ;
+   padding: 2%;}
+
+.text-junior,
+.text-doble,
+.text-apart{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.img-junior img,
+.img-doble img,
+.img-apart img{
+   width: 60% !important;
+   height: auto;
+   display: block;
+   border-radius: 5px;
+   margin: 0 auto;
+}
+.resto-principal img,
+.salon-de-te img,
+.quincho img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 6%;
+}
+.grid-container-cabalgatas,
+.grid-container-piscina,
+.grid-container-senderismo{
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: 20px;
+   padding: 2%;
+}
+.text-cabalgatas,
+.text-piscina,
+.text-senderismo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.img-cabalgatas img,
+.img-piscina img, 
+.img-senderismo img{
+    width: 60% !important;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.button-footer
+:first-child{
+    font-size: 0.8 rem;
+    padding: 2px 2px
+}
+
+
+
 }
