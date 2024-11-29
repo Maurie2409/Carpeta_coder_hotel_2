@@ -1,0 +1,21 @@
+
+// .enlace-whatsapp{
+//     padding-left: 50px;
+#enlace-whatsapp{
+    position: relative;
+    bottom: 0px;
+    left: 150px;
+    background-color: transparent;
+    border: none;
+    img{
+    background-color: transparent !important;
+       
+    }
+    transition: 3s;
+      &:hover{
+        transform: rotate(360deg);
+      }  
+}    
+.form{
+    color:$font-color;
+} 

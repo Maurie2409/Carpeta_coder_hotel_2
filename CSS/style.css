@@ -75,6 +75,25 @@ form {
   background-color: #CAC3BB;
 }
 
+#enlace-whatsapp {
+  position: relative;
+  bottom: 0px;
+  left: 150px;
+  background-color: transparent;
+  border: none;
+  transition: 3s;
+}
+#enlace-whatsapp img {
+  background-color: transparent !important;
+}
+#enlace-whatsapp:hover {
+  transform: rotate(360deg);
+}
+
+.form {
+  color: #CAC3BB;
+}
+
 @media (min-width: 320px) and (max-width: 460px) {
   .header {
     display: flex;
@@ -236,7 +255,7 @@ header {
 }
 header a:hover {
   color: #CAC3BB;
-  background-color: #B99470;
+  background-color: #CAC3BB;
 }
 
 div {
